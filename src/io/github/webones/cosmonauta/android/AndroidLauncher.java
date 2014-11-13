@@ -4,6 +4,8 @@ import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+
+import io.github.webones.cosmonauta.Cosmonauta;
 import io.github.webones.cosmonauta.CosmonautaGame;
 
 public class AndroidLauncher extends AndroidApplication {
@@ -11,6 +13,7 @@ public class AndroidLauncher extends AndroidApplication {
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-		initialize(new CosmonautaGame(), config);
+		//initialize(new CosmonautaGame(), config);
+		initialize(new Cosmonauta(), config);
 	}
 }
