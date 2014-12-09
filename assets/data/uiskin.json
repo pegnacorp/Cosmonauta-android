@@ -7,9 +7,14 @@
 "blue":  { "r": 0, "g": 0, "b":1, "a": 1 }
 },
 "com.badlogic.gdx.graphics.g2d.BitmapFont": {
-"fuenteBlanca": { "file": "fonts/default-24.fnt" }
+"fuenteBlanca": { "file": "fonts/default-24.fnt" },
+"fuenteBlanca32": { "file": "fonts/default-32.fnt" }
 },
+
 "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
-"default": { "font": "fuenteBlanca", "fontColor": "white" }
+"default": { "font": "fuenteBlanca32", "fontColor": "white" }
+},
+"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+"default": { "font": "fuenteBlanca32", "fontColor": "white" }
 }
 }
