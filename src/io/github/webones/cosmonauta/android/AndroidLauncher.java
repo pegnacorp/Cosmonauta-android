@@ -15,6 +15,8 @@ public class AndroidLauncher extends AndroidApplication {
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
+		config.useAccelerometer = true;
+		config.useWakelock = true;
 //		initialize(new GameScreen(), config);
 		initialize(new Cosmonauta(), config);
 	}
