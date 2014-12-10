@@ -17,7 +17,6 @@ public class AndroidLauncher extends AndroidApplication {
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 		config.useAccelerometer = true;
 		config.useWakelock = true;
-//		initialize(new GameScreen(), config);
 		initialize(new Cosmonauta(), config);
 	}
 }
